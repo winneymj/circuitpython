@@ -44,7 +44,6 @@ deploy:
   draft: true
   on:
     tags: true
-    repo:<your repository path>
 
 notifications:
   webhooks:
