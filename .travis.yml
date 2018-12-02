@@ -37,13 +37,14 @@ addons:
 deploy:
   provider: releases
   api_key:
-    secure: "758e8c6a0bd21a3ec7dc0ddeedf2e789eb522fd3"
+    secure: "XxPY9h1jemYYzX4uUh6z+ofkuUI7F1TjnJTmLGxQ2J4TKweLNC9Yia27v9a7u/YkbtPZ7K/NjGNA4PU9uB0dOOWN55s60e/PoqEU92DBVnIJRpiiafVk7dMeg/tzSSind+X6nqXyB7xImeXPKADeLS8ZHYrh+kl5whMDRCh6g+y131VSqObAGDVHqA2kp6bi94sb8jw3FATVfi6hUHklizA1f5ARjJK7UAZelHz9Bc37IGOPMytBFkZzCzshIVR7wSxPep0AFtFaVucZTIJJxeWccdJE4m0lcmQ8r79wHf+AZzbDmCDA5JCAuiOmadhsKn39Pzg83QUOgcS7bICHLUjv5nJELeGcbITes9wKUp05gVaIxDzHBjGFLhWVbzeYGIrtVlh8uRUwqDNSfKJm5N4cMs1CqLnEuYYG267IXC7kh3JipMzoXp0eS4CmDekIZ4i6O9W7jgU3qJysILGB9Bpv/VZIOnzBSN+SBo2glVTTzhTQSIxYtOYI9sVWQikBrNyFoNpUBMTV6Z3Ot1fUW+xXkwIuv4r9BqnX/WJ077KE7lqD6mTu6N8/P1TqOxKPnzNk96JcEqmvYMsKVuSN8NpIiCGw5xVnbxbehMmaM6jcCY51ORArDrJQ+PHpILXr+c9q39CHfag++4TAio/yXVTkeWzNFKa5NUR+z5vdF8M="
   file:
   - $(ls -d1 bin/*/* | tr "\n" ":")
   skip_cleanup: true
   draft: true
   on:
     tags: true
+    repo:<your repository path>
 
 notifications:
   webhooks:
