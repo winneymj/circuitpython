@@ -34,6 +34,7 @@ extension_by_board = {
     "feather_m0_adalogger": BIN_UF2,
     "feather_m0_basic": BIN_UF2,
     "feather_m0_rfm69": BIN,
+    "mattairtech_mt-d21e_A": BIN,
     "feather_m0_rfm9x": BIN,
     "makerdiary_nrf52840_mdk": HEX
 }
