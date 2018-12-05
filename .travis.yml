@@ -41,7 +41,7 @@ deploy:
   file:
   - $(ls -d1 bin/*/* | tr "\n" ":")
   skip_cleanup: true
-  draft: true
+  draft: false
   on:
     tags: false
     branch: implement_mt-d21e_A
