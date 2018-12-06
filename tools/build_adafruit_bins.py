@@ -46,13 +46,13 @@ for board in build_boards:
 
         other_output = ""
 
-        print("board_info=()".format(board_info))
+        print("board_info={}".format(board_info))
         for extension in board_info["extensions"]:
             temp_filename = "../ports/{port}/build-{board}/firmware.{extension}".format(port=board_info["port"], board=board, extension=extension)
             final_filename = "adafruit-circuitpython-{board}-{language}-{version}.{extension}".format(board=board, language=language, version=version, extension=extension)
             final_filename = os.path.join(bin_directory, final_filename)
-            print("temp_filename=()".format(temp_filename))
-            print("final_filename=()".format(final_filename))
+            print("temp_filename={}".format(temp_filename))
+            print("final_filename={}".format(final_filename))
             try:
                 shutil.copyfile(temp_filename, final_filename)
             except FileNotFoundError:
