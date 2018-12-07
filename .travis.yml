@@ -38,8 +38,7 @@ deploy:
   provider: releases
   api_key:
     secure: "mhejxL5r9ULnK1ehfSUS29wqOrPkN44bGtOomDKmonjKFOLWyRcY3EsNBgGcA17TZGhaftm00mW3qGAIDvJvkZJodhbIOzUPFlKsuPQPqWkQfPC+vzb7bY8pcueEr/6KDgCOT/wSMC8VkQWszuMHWVpCHmz2KKfLUoFuCjh+DJSn4DHu5aqN+DnqaoAXBbCv4g0MHst6DCZ0doxAiCOPBfW2WByRQbpovRjGDoZtV+bXxVNIq/LzJ6XpgFkqzsS16yQ4Axurso+U6fu1pRRwtJbfqeNiGsebDfP0D/qSoxoE5PgxRt+UoLRWVbiQcibVg5iC53U3PK3isyk0tEs7mIjMZVYh6Fcq2nkjq/UbFvScte+HDN9BKW1YF82Gde0ia6CvStbUcXMWTXv5KdeGqVcb3yZlxHwgHCh2O5CviSyShqkFmeNd7cr53mB4ZMU9wUXytRbxs/9e17pOLtKO+keV4IRSfwJjq3tenUFu0jRsNl5T8qDbnCUTgd+DScUZPFrmpP4anPxbvDoi4FVDimp5WMqSf3WByYWERqf5U0B/z/HiKu1Sn3qUgh3Ehuah9tV/+NGYlCD9/Ul9Fo+GSjzUXlptWE4Nlo+yJvy3iuYQxSnetVAL2s9vmsZWstIric4QtOTCJRe27cixHGbTalr573P8mTcg5mcO1sPIBa8="
-  file:
-  - $(ls -d1 bin/*/*de_DE*)
+  file: bin/*/*
   skip_cleanup: true
   draft: true
   on:
