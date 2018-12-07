@@ -73,7 +73,7 @@ Download
 --------
 
 Official binaries are available through the `latest GitHub
-releases <https://github.com/adafruit/circuitpython/releases>`__.
+releases <https://github.com/winneymj/circuitpython/releases>`__.
 Continuous (one per commit) builds are available
 `here <https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin>`__
 and includes experimental hardware support.
